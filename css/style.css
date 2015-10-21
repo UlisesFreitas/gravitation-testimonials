@@ -1,0 +1,77 @@
+/**
+* Testimonial Carousel
+*/
+/* carousel */
+.carousel-testimonials {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #ffffff;
+}
+a.right.carousel-control {
+    background: none;
+}
+a.left.carousel-control {
+    background: none;
+}
+.testimonial-img{
+	width: 150px;
+	height: 150px;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {    
+    float: left;
+    margin-right: 10px;
+    border-left: none !important;
+}
+.carousel-testimonials .item blockquote {
+    border-left: none;
+}
+
+.carousel-testimonials .carousel-indicators li {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    margin: 1px;
+    text-indent: -999px;
+    border: 1px solid #ffb700;
+    border-radius: 13px;
+    cursor: pointer;
+    background-color: #ffffff \9;
+    background-color: rgba(255, 255, 255, 0);
+}
+.carousel-testimonials ol.carousel-indicators {
+    bottom: -45px;
+}
+
+
+@media (min-width: 768px)
+.carousel-testimonials {
+    margin-bottom: 0;
+    padding: 30px 40px 45px 40px;
+}
+
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    .carousel-testimonials .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    .carousel-testimonials .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    .carousel-testimonials .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
