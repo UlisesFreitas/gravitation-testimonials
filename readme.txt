@@ -4,11 +4,11 @@ Tags: Testimonials, Testimonials on Widgets, Testimonials Shortcodes
 Donate link: https://disenialia.com
 Requires at least: 4.3.1
 Tested up to: 4.3.1
-Stable tag: 
+Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-A Plugin to integrate with the marvelous Theme \"Gravitation\".
+A Plugin to integrate testimonials
 
 == Description ==
 Gravitation Testimonials, is a plugin to display testimonials on your site, with ShortCodes
@@ -29,8 +29,11 @@ Configure as you see fit, under Gravitation / Gravitation Testimonials.
 = 1.0 =
 * Initial
 
-== Upgrade Notice ==
+== Frequently Asked Questions ==
+= More info contact at disenialia.com =
 
+== Upgrade Notice ==
+= None
 
 == A brief Markdown Example ==
 
